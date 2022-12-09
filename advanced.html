@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <style>
+            input {
+                height: 25px;
+                width: 300px;
+            }
+
+            #table {
+                margin-top: 10px;
+                margin-bottom: 20px;
+                margin-left: 20px;
+            }
+
+            label {
+                display: inline-block;
+                width: 300px;
+                text-align: left;
+                margin-bottom: 20px;
+                font-size: 13px;
+            }
+
+            #submit {
+                height: 30px;
+                width: 150px;
+                margin-left: 20px;
+                background: #357AE6;
+                color: white;
+                float: right;               
+                border: 1px solid #f8f9fa;
+                border-radius: 4px;                
+                font-family: arial,sans-serif;
+                font-size: 14px;
+                margin: 11px 887px;
+                padding: 0 16px;
+                line-height: 27px;
+                height: 36px;
+                min-width: 54px;
+                text-align: center;
+                cursor: pointer;                
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <div style="text-align: left; font-family: arial,sans-serif;">
+            <div>
+                <label style="margin-left:20px; margin-top:50px; margin-bottom: 20px;font-size:20px; color:#d93025"style="margin-left:20px; margin-top:50px; margin-bottom: 20px;font-size:20px; color:#d93025">Advanced Search</label>
+            </div>
+            <form action="https://www.google.com/search">
+                <div>
+                    <div style="margin-left:20px; margin-top: 10px;">
+                        <label style="font-family: arial,sans-serif; font-size:16px">Find pages with...</label>
+                    </div>
+                <div id="table">
+                    <div>
+                        <div id="label">
+                            <label>all these words: </label>
+                            <input type="text" name="as_q">
+                        </div>
+                    </div>
+                <div>
+                    <div id="label">
+                    <label>this exact word or phrase: </label>
+                    <input type="text" name="as_epq">
+                    </div>
+                </div>
+                <div>
+                    <div id="label">
+                    <label>any of these words: </label>
+                    <input type="text" name="as_oq">
+                    </div>
+                </div>
+                <div>
+                    <div id="label">
+                    <label>none of these words: </label>
+                    <input type="text" name="as_eq">
+                    </div>
+                </div>
+                </div>
+                </div>
+                <input id="submit" type="submit" value="Advanced Search">
+            </form>
+            <a href="index.html" style="text-decoration:none;position:absolute; top:8px; right: 20px;font-size: 14px;">Google Search</a>
+        </div>        
+    </body>
+</html>

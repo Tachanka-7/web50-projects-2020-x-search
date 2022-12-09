@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Image Search</title>
+        <style>
+            #button{
+                display: inline-block;
+                text-align: center;
+                margin-left: 620px;
+                margin-bottom: 10px;
+            }
+            
+            .button{
+                background-color: #f8f9fa;
+                border: 1px solid #f8f9fa;
+                border-radius: 4px;
+                color: #3c4043;
+                font-family: arial,sans-serif;
+                font-size: 14px;
+                padding: 0 16px;
+                line-height: 27px;
+                height: 36px;
+                min-width: 54px;
+                text-align: center;
+                margin-top: 30px;
+                margin-left: 690px;
+            }
+
+            .bar{
+                padding: 0;
+                word-wrap: break-word;
+                border-radius:20px; 
+                overflow:hidden; 
+                width:443px; 
+                height:36px;
+                padding: 0 16px;              
+                margin-top: -57px;
+                font-size: 16px;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <div style="text-align: center; margin-top: 120px;">
+            <img src="google_logo.jpg" alt="logo">
+        </div>
+        <div  style="text-align: center;">
+        <form action="https://www.google.com/search">
+            <input class="bar" type="text" name="q" style="border-radius:20px; overflow:hidden; width:443px; height:36px;padding: 0 16px;">
+            <input type="hidden" name="tbm" value="isch">
+        </div>
+        <div>
+            <input class = "button" type="submit" value="Google Search">
+        </div>
+        </form>
+        </div>
+        <div style="display:block; font-family: sans-serif;font-size: 14px;">
+            <a href="index.html" style="text-decoration:none; position:absolute; top:8px; right: 20px; top:10px;font-size: 14px">Google Search</a>
+        </div>
+    </body>
+</html>
